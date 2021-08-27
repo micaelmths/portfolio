@@ -13,7 +13,7 @@
 export default {
   props: {
     experiencia: {
-      type: String,
+      type: Object,
       require: true
     }
   }
