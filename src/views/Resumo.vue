@@ -6,7 +6,7 @@
       </span>
       <h1>Resumo</h1>
     </div>
-    <div class="content d-flex col-12">
+    <div class="content col-12">
       <div class="row col-6 d-flex justify-content-center">
         <h3 class="text-center">Educação</h3>
         <div class="content-formacao">
@@ -27,6 +27,13 @@
           />
         </div>
       </div>
+      <div class="container-card-default">
+        <CardExperienciasDefault
+          v-for="(item, i) in experienciasDefault"
+          :key="i"
+          :experiencia="item"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -34,11 +41,13 @@
 <script>
 import CardEducacao from '@/components/CardEducacao.vue'
 import CardProfissional from '@/components/CardProfissional.vue'
+import CardExperienciasDefault from '@/components/CardExperienciasDefault.vue'
 import mocks from '../data/mocks.json'
 export default {
   components: {
     CardEducacao,
-    CardProfissional
+    CardProfissional,
+    CardExperienciasDefault
   },
   computed: {
     experienciasEducacionais () {
@@ -46,6 +55,12 @@ export default {
     },
     experienciasProfissionais () {
       return mocks.experienciasProfissionais
+    },
+    experienciasDefault () {
+      const todas = []
+      todas.push(...mocks.experienciasEducacionais)
+      todas.push(...mocks.experienciasProfissionais)
+      return todas
     }
   }
 }
@@ -62,6 +77,7 @@ export default {
   height: 700px;
   padding-top: 75px;
 }
+.content
 .sessao-head > span {
   background: #252a2e;
 }
@@ -69,6 +85,9 @@ export default {
   width: 100%;
   flex-direction: column;
   align-items: center;
+}
+.content {
+  display: flex;
 }
 .content-formacao {
   height: 100%;
@@ -80,10 +99,28 @@ export default {
   min-height: 200px;
   border-left: 1px solid #333;
 }
+.container-card-default {
+  display: none;
+}
 li {
   margin-top: 10px;
 }
 svg {
   font-size: 35px;
+}
+
+@media (max-width: 1450px) {
+  .row {
+    display: none !important;
+  }
+  .container-card-default {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .resumo-container {
+    height: auto;
+  }
 }
 </style>
