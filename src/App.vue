@@ -12,7 +12,7 @@
     <section class="habilidades" id="habilidades">
       <Habilidades />
     </section>
-    <section class="habilidades" id="resumo">
+    <section class="resumo" id="resumo">
       <Resumo />
     </section>
   </div>
@@ -51,11 +51,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   background: var(--bg-color);
   color: white;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+section {
+  width: 100%;
 }
 button,
 input {

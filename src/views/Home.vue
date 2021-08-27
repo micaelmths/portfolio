@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4">
+  <div>
     <CardPerfil />
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
 <style scoped>
 div {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 700px;
   align-items: center;
   justify-content: center;

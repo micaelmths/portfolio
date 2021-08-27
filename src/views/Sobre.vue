@@ -98,12 +98,12 @@ export default {
   background: var(--bg-color);
   align-items: center;
   padding: 0 200px;
-  width: 100vw;
+  width: 100%;
   height: 700px;
   margin-top: 75px;
 }
 .titulo-sessao {
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }

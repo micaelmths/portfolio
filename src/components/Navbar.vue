@@ -41,13 +41,13 @@ export default {
 
 <style scoped>
 .navbar-container {
-  width: 100vw;
+  width: 100%;
   height: 70px;
   background: var(--bg-color);
   position: fixed;
   left: 0;
   padding: 0 200px;
-  z-index: 99;
+  z-index: 2;
   transition: box-shadow 0.3s;
 }
 .isScrolling {

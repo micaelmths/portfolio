@@ -58,7 +58,7 @@ export default {
   background: var(--bg-color);
   align-items: center;
   padding: 0 200px;
-  width: 100vw;
+  width: 100%;
   height: 700px;
   padding-top: 75px;
 }
@@ -66,7 +66,7 @@ export default {
   background: #252a2e;
 }
 .sessao-head {
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }

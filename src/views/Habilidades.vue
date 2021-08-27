@@ -54,7 +54,7 @@
           <li>
             <b>Dedicação</b>
             <div class="progress col-11">
-              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
             </div>
           </li>
           <li>
@@ -82,12 +82,12 @@ export default {
   background: var(--bg-secundary);
   align-items: center;
   padding: 0 200px;
-  width: 100vw;
+  width: 100%;
   height: 600px;
   padding-top: 75px;
 }
 .sessao-head {
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
