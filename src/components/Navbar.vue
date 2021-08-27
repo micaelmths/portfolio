@@ -12,6 +12,7 @@
           <li><a href="#resumo">Resumo</a></li>
           <li><a href="#portifolio">Portifólio</a></li>
           <li><a href="#contato">Contato</a></li>
+          <li><a target="_blank" href="https://micaelmths.github.io/meusite/">Blog</a></li>
         </ul>
       </nav>
     </div>
