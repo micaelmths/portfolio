@@ -1,0 +1,10 @@
+{
+  "experienciasEducacionais": [
+    {"id": 0, "titulo": "Sistemas de Informação", "instituicao": "Santíssimo Sacramento", "periodo": "2017 - 2021", "descricao": "O curso de Sistemas de Informação dá ao aluno capacidade de gerenciar fluxos de informação em qualquer rede de computadores, seja de empresas ou particulares."},
+    {"id": 1, "titulo": "Manutenção de Computadores", "instituicao": "Microlins", "periodo": "2010", "descricao": "Capacita o aluno a realizar manutenções simples em um computador (formatar, limpar, trocar peças e etc)."}
+  ],
+  "experienciasProfissionais": [
+    {"id": 0, "titulo": "Programador Jr", "instituicao": "Pulsar Soluções de Tecnologia", "periodo": "2021 - Atual", "descricao": "Sou responsável pelo desenvolvimento do frontend do sistema. O framework utilizado para construção das telas é o Vue.JS."},
+    {"id": 1, "titulo": "Auxiliar/Conferente/Almoxarife", "instituicao": "Heineken", "periodo": "2013 - 2021", "descricao": "Entrei como auxiliar de produção atuando nas máquinas, depois passei para setor de logística onde fui conferente e logo após fui encaminhado para o almoxarifado."}
+  ]
+}
