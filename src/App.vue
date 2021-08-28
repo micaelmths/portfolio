@@ -37,6 +37,7 @@ export default {
 <style>
 :root {
   --primary-color: #2a9d8f;
+  --primary-color-hover: #32baaa;
   --bg-color: #1E2326;
   --bg-secundary: #252A2E;
 }
