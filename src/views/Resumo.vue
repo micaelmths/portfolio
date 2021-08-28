@@ -88,15 +88,14 @@ export default {
 }
 .content {
   display: flex;
+  margin-bottom: 2rem;
 }
 .content-formacao {
-  height: 100%;
-  min-height: 200px;
+  height: auto;
   border-right: 1px solid #333;
 }
 .content-experiencias {
-  height: 100%;
-  min-height: 200px;
+  height: auto;
   border-left: 1px solid #333;
 }
 .container-card-default {
