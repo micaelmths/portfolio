@@ -5,6 +5,6 @@
   ],
   "experienciasProfissionais": [
     {"id": 0, "titulo": "Programador Jr", "instituicao": "Pulsar Soluções de Tecnologia", "periodo": "2021 - Atual", "descricao": "Sou responsável pelo desenvolvimento do frontend do sistema. O framework utilizado para construção das telas é o Vue.JS."},
-    {"id": 1, "titulo": "Auxiliar/Conferente/Almoxarife", "instituicao": "Heineken", "periodo": "2013 - 2021", "descricao": "Entrei como auxiliar de produção atuando nas máquinas, depois passei para setor de logística onde fui conferente e logo após fui encaminhado para o almoxarifado."}
+    {"id": 1, "titulo": "Aux./Conf./Almox.", "instituicao": "Heineken", "periodo": "2013 - 2021", "descricao": "Entrei como auxiliar de produção atuando nas máquinas, depois passei para setor de logística onde fui conferente e logo após fui encaminhado para o almoxarifado."}
   ]
 }

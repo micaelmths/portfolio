@@ -47,7 +47,7 @@ export default {
   position: fixed;
   left: 0;
   padding: 0 200px;
-  z-index: 2;
+  z-index: 10;
   transition: box-shadow 0.3s;
 }
 .isScrolling {

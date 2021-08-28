@@ -25,6 +25,8 @@ export default {
   margin-right: 8px;
 }
 .card-container {
+  max-width: 800px;
+  min-width: 280px;
   padding: 15px;
   background: var(--bg-secundary);
   border: 2px solid var(--primary-color);
@@ -36,5 +38,11 @@ h5 {
 }
 p {
   margin: 0;
+}
+
+@media (max-width: 800px) {
+  h5 {
+    flex-direction: column;
+  }
 }
 </style>
