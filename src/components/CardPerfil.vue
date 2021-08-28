@@ -1,7 +1,7 @@
 <template>
-  <span data-tilt>
+  <span v-tilt="{scale:1.05}">
 
-  <div v-tilt class="perfil-container shadow p-4">
+  <div  class="perfil-container shadow p-4">
     <div class="d-flex align-items-center flex-column perfil-card">
       <img src="../assets/perfil.jpg" alt="Foto Micael" />
       <h2 class="nome">Micael Ramos</h2>
@@ -49,11 +49,22 @@ export default {}
   font-weight: 300;
   font-size: 24px;
 }
-
+span {
+  width: 550px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px ;
+}
 svg {
   color: var(--primary-color);
   font-size: 34px;
   cursor: pointer;
+}
+
+svg:hover {
+  color: var(--primary-color-hover);
 }
 img {
   position: absolute;
