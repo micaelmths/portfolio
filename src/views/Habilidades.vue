@@ -83,7 +83,7 @@ export default {
   align-items: center;
   padding: 0 200px;
   width: 100%;
-  height: 600px;
+  height: auto;
   padding-top: 75px;
 }
 .sessao-head {
