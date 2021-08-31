@@ -39,5 +39,6 @@ export default {
 }
 svg {
   font-size: 28px;
+  color: white;
 }
 </style>

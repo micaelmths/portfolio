@@ -119,6 +119,9 @@ ul > li > strong {
 svg {
   font-size: 35px;
 }
+.download svg {
+  color: white;
+}
 a {
   align-items: center;
 }

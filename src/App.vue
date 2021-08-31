@@ -15,6 +15,12 @@
     <section class="resumo" id="resumo">
       <Resumo />
     </section>
+    <section class="contato" id="contato">
+      <Contato />
+    </section>
+    <footer>
+      <Footer />
+    </footer>
   </div>
 </template>
 <script>
@@ -22,14 +28,18 @@ import Home from '@/views/Home.vue'
 import Sobre from '@/views/Sobre.vue'
 import Habilidades from '@/views/Habilidades.vue'
 import Resumo from '@/views/Resumo.vue'
+import Contato from '@/views/Contato.vue'
 import Navbar from '@/components/Navbar.vue'
+import Footer from '@/components/Footer.vue'
 export default {
   components: {
     Home,
     Sobre,
     Navbar,
     Habilidades,
-    Resumo
+    Resumo,
+    Contato,
+    Footer
   }
 }
 </script>
@@ -61,6 +71,9 @@ export default {
 section {
   width: 100%;
 }
+footer {
+  width: 100%;
+}
 button,
 input {
   outline: 0;
@@ -81,5 +94,12 @@ a:hover {
 }
 .text-primary {
   color: var(--primary-color) !important;
+}
+p {
+  margin: 0;
+}
+
+svg {
+  color: #FFC107;
 }
 </style>
