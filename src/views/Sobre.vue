@@ -6,7 +6,7 @@
       </span>
       <h1>Sobre</h1>
     </div>
-    <div class="row col-12">
+    <div class="resumo">
       <p>
         <strong class="text-primary">Olá pessoal, eu sou Micael Ramos</strong>,
         tenho 28 anos de idade, sou de Alagoinhas na Bahia. Possuo formação em
@@ -19,7 +19,7 @@
         mostrar sua marca, seu produto, seu conteúdo profissional e etc.
       </p>
     </div>
-    <div class="row col-12 mt-4">
+    <div class="dados row col-12 mt-4">
       <div class="detalhes-pessoais col-lg-6">
         <h3>Detalhes Pessoais</h3>
         <ul>
@@ -46,17 +46,16 @@
           <li>
             <strong>Ocupação</strong>
             <OcupacaoBadge :texto="'Programador'" />
-            <OcupacaoBadge :texto="'FREELANCER'" />
+            <OcupacaoBadge :texto="'Web Designer'" />
+            <OcupacaoBadge :texto="'Freelancer'" />
           </li>
         </ul>
       </div>
-      <div class="col-lg-6">
+      <div class="meus-interesses col-lg-6">
         <h3>Meus Interesses</h3>
         <CardGrid>
-          <CardInteresses :icone="'fas fa-money-bill-alt'" :texto="'Dinheiro'"/>
           <CardInteresses :icone="'fas fa-music'" :texto="'Música'"/>
           <CardInteresses :icone="'fas fa-suitcase-rolling'" :texto="'Viagens'"/>
-          <CardInteresses :icone="'fab fa-apple'" :texto="'Apple'"/>
           <CardInteresses :icone="'fas fa-film'" :texto="'Filmes'"/>
           <CardInteresses :icone="'fas fa-mug-hot'" :texto="'Café'"/>
           <CardInteresses :icone="'fas fa-car'" :texto="'Carros'"/>
@@ -97,10 +96,10 @@ export default {
   flex-direction: column;
   background: var(--bg-color);
   align-items: center;
-  padding: 0 200px;
   width: 100%;
   height: auto;
-  margin-top: 75px;
+  margin-top: 9rem;
+  padding: 0 15rem;
 }
 .titulo-sessao {
   width: 100%;
@@ -130,5 +129,55 @@ a > p {
 }
 ul {
   padding: 0;
+}
+
+@media (max-width: 1450px) {
+  .sobre-container {
+    padding: 0 5rem;
+  }
+}
+@media (max-width: 1150px) {
+  .sobre-container {
+    padding: 0 2rem;
+  }
+  .dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .detalhes-pessoais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+  }
+  .meus-interesses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    margin-top: 3rem;
+  }
+  .resumo {
+    width: 40rem;
+  }
+
+@media (max-width: 700px) {
+
+  .resumo p {
+    padding: 0 100px;
+  }
+}
+@media (max-width: 450px) {
+  .resumo {
+    padding: 0 25px;
+  }
+  .resumo p {
+    padding: 0 150px;
+  }
+}
 }
 </style>

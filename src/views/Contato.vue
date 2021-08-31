@@ -89,7 +89,6 @@ export default {
   flex-direction: column;
   background: var(--bg-secundary);
   align-items: center;
-  padding: 0 200px;
   width: 100%;
   height: auto;
 }

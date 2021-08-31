@@ -32,6 +32,7 @@
                 v-for="(item, index) in items"
                 :key="index"
                 :href="item.href"
+                :target="item.target"
               >
                 <v-list-item-title>{{ item.title }}</v-list-item-title>
               </v-list-item>
@@ -64,7 +65,8 @@ export default {
         },
         {
           title: 'Blog',
-          href: 'https://micaelmths.github.io/meusite/'
+          href: 'https://micaelmths.github.io/meusite/',
+          target: '_blank'
         }
       ]
     }

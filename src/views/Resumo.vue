@@ -1,5 +1,5 @@
 <template>
-  <div class="resumo-container">
+  <div class="resumo-container py-5">
     <div class="sessao-head d-flex">
       <span class="shadow p-3 rounded text-warning mb-2">
         <i class="fab fa-readme"></i>
@@ -75,9 +75,7 @@ export default {
   padding: 0 200px;
   width: 100%;
   height: auto;
-  padding-top: 75px;
 }
-.content
 .sessao-head > span {
   background: #252a2e;
 }

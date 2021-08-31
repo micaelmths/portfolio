@@ -1,5 +1,5 @@
 <template>
-  <div class="habilidades-container">
+  <div class="habilidades-container py-5">
     <div class="sessao-head d-flex">
       <span class="shadow-lg p-3 rounded text-warning mb-2">
         <i class="fas fa-sliders-h"></i>
@@ -84,7 +84,6 @@ export default {
   padding: 0 200px;
   width: 100%;
   height: auto;
-  padding-top: 75px;
 }
 .sessao-head {
   width: 100%;

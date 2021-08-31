@@ -13,6 +13,7 @@ export default {
 <style>
 .grid {
   display: grid;
-  grid-template: auto / repeat(4, 1fr);
+  width: 400px;
+  grid-template: auto / repeat(3, 1fr);
 }
 </style>

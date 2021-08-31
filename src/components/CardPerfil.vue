@@ -5,7 +5,7 @@
     <div class="d-flex align-items-center flex-column perfil-card">
       <img src="../assets/perfil.jpg" alt="Foto Micael" />
       <h2 class="nome">Micael Ramos</h2>
-      <h3 class="titulo">Desenvolvedor Web</h3>
+      <h3 class="titulo">Web Designer</h3>
       <div class="social mt-4">
         <a href="https://www.instagram.com/micaelmatheus/" target="_blank" rel="noopener noreferrer"
           ><i class="fab fa-instagram"></i
