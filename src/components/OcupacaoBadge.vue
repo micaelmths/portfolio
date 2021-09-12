@@ -21,5 +21,6 @@ b {
   border-radius: 8px;
   padding: 3px;
   margin: 0 5px 0 0;
+  word-break: normal;
 }
 </style>

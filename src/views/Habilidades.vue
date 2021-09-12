@@ -81,8 +81,8 @@ export default {
   flex-direction: column;
   background: var(--bg-secundary);
   align-items: center;
-  padding: 0 200px;
   width: 100%;
+  padding: 0 200px;
   height: auto;
 }
 .sessao-head {
@@ -109,5 +109,16 @@ svg {
 }
 ul {
   padding: 0;
+}
+
+@media (max-width: 1000px) {
+  .habilidades-container {
+    padding: 0 100px;
+  }
+}
+@media (max-width: 480px) {
+  .habilidades-container {
+    padding: 0 30px;
+  }
 }
 </style>

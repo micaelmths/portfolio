@@ -1,14 +1,14 @@
 <template>
-  <div class="contato-container py-5">
+  <div class="contato-container py-5 px-3">
     <div class="sessao-head d-flex">
       <span class="shadow-lg p-3 rounded text-warning mb-2">
         <i class="fas fa-envelope"></i>
       </span>
-      <h1>Contato</h1>
+      <h1>Precisa de um desenvolvedor?</h1>
     </div>
     <div class="sessao-content mt-2 col-12">
       <div class="form-contato">
-        <h5 class="text-center">Me envie um e-mail</h5>
+        <h5 class="text-center mb-3">Vamos trabalhar juntos!</h5>
         <v-text-field
           class="nome"
           name="nome"
@@ -115,5 +115,11 @@ svg {
 }
 input {
   color: #FFF;
+}
+
+@media (max-width: 450px) {
+  .sessao-head h1 {
+    font-size: 22px;
+  }
 }
 </style>

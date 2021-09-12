@@ -1,6 +1,6 @@
 <template>
   <div class="footer-container">
-    <p>Site desenvolvido em Vue.js  <i class="fab fa-vuejs"></i></p>
+    <p>Site desenvolvido com muito <i class="fas fa-heart"></i> 2021</p>
   </div>
 </template>
 
@@ -20,6 +20,6 @@ export default {
   background: var(--bg-color);
 }
 p > svg {
-  color: var(--primary-color)
+  color: red;
 }
 </style>

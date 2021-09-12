@@ -17,9 +17,8 @@ export default {
 div {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  margin-top: 70px;
 }
 </style>

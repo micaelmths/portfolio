@@ -46,7 +46,7 @@
           <li>
             <strong>Ocupação</strong>
             <OcupacaoBadge :texto="'Programador'" />
-            <OcupacaoBadge :texto="'Web Designer'" />
+            <OcupacaoBadge :texto="'WebDesigner'" />
             <OcupacaoBadge :texto="'Freelancer'" />
           </li>
         </ul>

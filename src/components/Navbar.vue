@@ -1,10 +1,10 @@
 <template>
   <div class="navbar-container d-flex align-items-center" :class="isScrolling">
-    <div class="navbar d-flex align-items-center col-12">
-      <a href="#home">
-        <h1 class="col-2">Micael</h1>
+    <div class="navbar d-flex align-items-center">
+      <a class="col-2" href="#home">
+        <h1>Micael</h1>
       </a>
-      <nav class="col-10">
+      <nav class="col-2">
         <ul>
           <li><a href="#home">Início</a></li>
           <li><a href="#sobre">Sobre</a></li>
@@ -97,6 +97,9 @@ export default {
 }
 .navbar {
   padding: 0 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .btn-menu {
   display: none;
