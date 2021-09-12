@@ -11,7 +11,6 @@
           <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#resumo">Resumo</a></li>
           <li><a href="#contato">Contato</a></li>
-          <li><a target="_blank" href="https://micaelmths.github.io/meusite/">Blog</a></li>
         </ul>
       </nav>
       <template>
@@ -60,13 +59,12 @@ export default {
           href: '#habilidades'
         },
         {
-          title: 'Contato',
-          href: '#contato'
+          title: 'Resumo',
+          href: '#resumo'
         },
         {
-          title: 'Blog',
-          href: 'https://micaelmths.github.io/meusite/',
-          target: '_blank'
+          title: 'Contato',
+          href: '#contato'
         }
       ]
     }
